@@ -4,6 +4,15 @@
     justify-content: space-between;
     margin-top: 30px;
 }
+.svg-header{
+    width: 90px;
+    height: 72px;
+    color: #6E07F3;
+    cursor: pointer;
+}
+.svg-header-button{
+    border: none;
+}
 
 .left-section{
   

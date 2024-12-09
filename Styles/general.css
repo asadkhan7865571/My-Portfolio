@@ -1,11 +1,7 @@
-svg{
-    width: 90px;
-    height: 72px;
-    color: #6E07F3;
-}
 body{
     font-family: 'Lato', sans-serif;
-    padding-bottom: 3000px;
+    margin: 0;
+    
 }
 button{
     font-family: 'Lato', sans-serif;
@@ -22,3 +18,8 @@ p{
     font-family: 'EuroStyle Normal';
     src: url(/eurostile-2/EuroStyle\ Normal.ttf);
 }
+@font-face{
+    font-family: 'lucida';
+    src: url(/lucida-sans/LSANS.TTF) ;
+}
+

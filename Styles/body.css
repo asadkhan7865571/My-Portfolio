@@ -3,27 +3,139 @@
     flex-direction: column;
     align-items: center;
     margin-top: 110px;
+
     
 }
+
 .skills{
     font-family: 'Eurostile', sans-serif;
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 30px;
+    text-align: center; 
+}
+  @media(max-width:766px){
+    .skills{
+        font-size: 32px;
+    }
 }
 .short-intro{
    font-size: 24px;
+   text-align: center;
 }
 .face-avatar-container{
     display: flex;
     justify-content: center;
+    margin-top: 67px;
+    margin-bottom: 75px;
+
     
 }
 
-
-.button{
+.face-avatar{
+    width: 210px;
+}
+        @media(max-width: 761px) {
+            .face-avatar{
+                width: 150px;
+            }
+        }
+.cool-design-container{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 
 }
+.cool-design{
+    width: 100%;
+    max-width: 860px;
+}
+.intro-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6E07F3;
+    color: white;
+    padding-bottom: 300px;
+}
+.greetings-container{
+    margin-top: 83px;
+    margin-bottom: 25px;
+}
+
+.greetings{
+    font-family: eurostile, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+}
+@media(max-width: 759px){
+    .greetings{
+        font-size: 24px;
+    }
+}
+.long-intro{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+.intro-container{
+    width: 88vw;
+    margin-bottom: 30px;
+    
+}
+@media(min-width:774px){
+    .intro-container{
+        width: 40vw;
+    }
+}
+.svg-footer{
+    width: 90px;
+    height: 72px;
+    color: white;
+    cursor: pointer;
+}
+.footer-quote{
+    font-family: 'Eurostile', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    width: 57vw;
+}
+
+@media(max-width: 1013px){
+    .footer-quote{
+        font-size: 24px;
+    }
+    
+}
+
+@media(min-width: 774px){
+    .footer-quote{
+        width: 20vw;
+    }
+    
+}
+.footer-buttons{
+    display: flex;
+    justify-content: center;
+}
+.linkedin{
+    height: 26px;
+    width: 26px;
+}
+.twitter{
+    height: 26px;
+    width: 26px;
+}
+.github{
+    height: 26px;
+    width: 26px;
+}
+.svg-footer-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+
+
