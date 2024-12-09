@@ -1,0 +1,24 @@
+svg{
+    width: 90px;
+    height: 72px;
+    color: #6E07F3;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 3000px;
+}
+button{
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+@font-face {
+    font-family: 'eurostile';
+    src: url(/eurostile-2/eurostile.TTF);
+}
+@font-face {
+    font-family: 'EuroStyle Normal';
+    src: url(/eurostile-2/EuroStyle\ Normal.ttf);
+}

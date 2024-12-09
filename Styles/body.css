@@ -1,0 +1,29 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+    
+}
+.skills{
+    font-family: 'Eurostile', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.short-intro{
+   font-size: 24px;
+}
+.face-avatar-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
